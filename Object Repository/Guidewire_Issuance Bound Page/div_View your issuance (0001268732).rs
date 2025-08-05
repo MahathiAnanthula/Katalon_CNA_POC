@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_View your issuance (0001268732)</name>
+   <tag></tag>
+   <elementGuidId>04cf7628-979d-4c9d-8bb0-ea5be6337ece</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='JobComplete-JobCompleteScreen-JobCompleteDV-ViewJob']/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gw-action.gw-focus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;View your issuance (#0001268732)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0c9c0295-f9f8-4d33-94ae-4304cdf28461</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gw-action gw-focus</value>
+      <webElementGuid>2f185738-90d2-4d85-8501-59efc3f0686f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>link</value>
+      <webElementGuid>ac2b394a-ec56-4d5d-8878-9fa4d875f4d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gw-click</name>
+      <type>Main</type>
+      <value>fireEvent id:JobComplete-JobCompleteScreen-JobCompleteDV-ViewJob</value>
+      <webElementGuid>135b19c4-dbfe-4757-b779-f2324865e78a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>acd01020-8f6e-4d54-9ff9-c920c9d99cbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View your issuance (#0001268732)</value>
+      <webElementGuid>8e0be2de-302f-45ca-9c4c-faed12e7c3ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;JobComplete-JobCompleteScreen-JobCompleteDV-ViewJob&quot;)/div[@class=&quot;gw-vw--value gw-align-h--left&quot;]/div[@class=&quot;gw-BulletPointTextValueWidget--inner&quot;]/div[@class=&quot;gw-action gw-focus&quot;]</value>
+      <webElementGuid>c1a4a0c5-f103-4013-8bbc-0e20699f6169</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='JobComplete-JobCompleteScreen-JobCompleteDV-ViewJob']/div/div/div[2]</value>
+      <webElementGuid>d39faa0c-e8b4-431a-8e9c-5271314e8541</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Issuance (#0001268732) has been bound.'])[1]/following::div[15]</value>
+      <webElementGuid>5b316729-da67-461a-af00-2db519a5eb14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Issuance Bound'])[1]/following::div[23]</value>
+      <webElementGuid>d22d4c7a-7e8c-40c5-8ae1-135e9362f8b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View your policy (#6581559102)'])[1]/preceding::div[3]</value>
+      <webElementGuid>b8012631-0303-4516-b06f-c3acd48fa8be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to the submission manager for this account'])[1]/preceding::div[11]</value>
+      <webElementGuid>7810b9d4-2f91-4501-8f46-0357cb8acd32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View your issuance (#0001268732)']/parent::*</value>
+      <webElementGuid>62ef1203-ab1d-4638-af39-713bf5630ca7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div/div[2]</value>
+      <webElementGuid>88901cb5-4848-46a2-8d1f-245b3bcc1c44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'View your issuance (#0001268732)' or . = 'View your issuance (#0001268732)')]</value>
+      <webElementGuid>2543003c-7504-463b-a936-6c527e888f3d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Minute Picker-touched active</name>
+   <tag></tag>
+   <elementGuidId>ce86eb73-7910-4b74-8a07-06b5860ea074</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-mdc-dialog-0']/div/div/ngx-mat-timepicker-dialog/div/ngx-mat-timepicker-content/div/mat-toolbar/ngx-mat-timepicker-dial/div/div/div/ngx-mat-timepicker-dial-control[2]/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.timepicker-dial__control.timepicker-dial__item.ng-pristine.ng-valid.ng-star-inserted.ng-touched.active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=textbox >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>f26fda2a-3b93-4101-90c2-6b6cec57e662</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>timepicker-dial__control timepicker-dial__item ng-pristine ng-valid ng-star-inserted ng-touched active</value>
+      <webElementGuid>dae13c4b-4802-4d9c-98d0-e6ae32736d11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-mdc-dialog-0&quot;)/div[@class=&quot;mdc-dialog__container&quot;]/div[@class=&quot;mat-mdc-dialog-surface mdc-dialog__surface&quot;]/ngx-mat-timepicker-dialog[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mat-mdc-dialog-content mdc-dialog__content&quot;]/ngx-mat-timepicker-content[1]/div[@class=&quot;timepicker ng-star-inserted&quot;]/mat-toolbar[@class=&quot;mat-toolbar timepicker-header mat-primary mat-toolbar-single-row&quot;]/ngx-mat-timepicker-dial[1]/div[@class=&quot;timepicker-dial&quot;]/div[@class=&quot;timepicker-dial__container&quot;]/div[@class=&quot;timepicker-dial__time&quot;]/ngx-mat-timepicker-dial-control[2]/input[@class=&quot;timepicker-dial__control timepicker-dial__item ng-pristine ng-valid ng-star-inserted ng-touched active&quot;]</value>
+      <webElementGuid>8ec67e4e-3146-43f3-9087-8c497230e1eb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-mdc-dialog-0']/div/div/ngx-mat-timepicker-dialog/div/ngx-mat-timepicker-content/div/mat-toolbar/ngx-mat-timepicker-dial/div/div/div/ngx-mat-timepicker-dial-control[2]/input</value>
+      <webElementGuid>2b99353c-e09c-4959-b9ba-d5718270d817</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ngx-mat-timepicker-dial-control[2]/input</value>
+      <webElementGuid>651d680a-1819-4206-8f63-1a8ab5ca0705</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

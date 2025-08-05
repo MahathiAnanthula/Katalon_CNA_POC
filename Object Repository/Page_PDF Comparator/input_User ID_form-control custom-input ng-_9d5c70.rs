@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_User ID_form-control custom-input ng-_9d5c70</name>
+   <tag></tag>
+   <elementGuidId>36250907-c158-47c4-955f-7c664068500c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.custom-input.ng-untouched.ng-pristine.ng-invalid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Your Email&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>5d39a23b-c5f3-44ac-9e70-4f3908b77098</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>42dc95bb-ad7c-42e8-80cf-e3789a3d9208</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>email</value>
+      <webElementGuid>468b0b40-e77b-49c4-a23e-1cbcff2e13ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Your Email</value>
+      <webElementGuid>ad5159d6-b4f9-4810-80e2-aae54c3f1eb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control custom-input ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>6fc14867-77c2-4df9-a1be-bb6ec348b7a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-publiclayout[@class=&quot;ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container mat-elevation-z8&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/app-login[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mat-elevation-z8 col-xl-6 col-lg-6 col-md-8 col-sm-10 flex-wrap flex-md-nowrap mt-5 p-3 d-flex align-items-center m-auto&quot;]/div[@class=&quot;d-flex flex-column w-100 justify-content-center m-2&quot;]/div[1]/form[@class=&quot;form ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;form-group mb-3&quot;]/input[@class=&quot;form-control custom-input ng-untouched ng-pristine ng-invalid&quot;]</value>
+      <webElementGuid>3df99d74-9451-472c-9d17-e8207485bf75</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='text']</value>
+      <webElementGuid>e95331b3-4900-48ca-987f-b2bb68caab01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>1bd19895-84f2-46b8-9962-72c0d52de8d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Your Email']</value>
+      <webElementGuid>31a5bfc2-a89c-4be0-99d7-dcd19015e910</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

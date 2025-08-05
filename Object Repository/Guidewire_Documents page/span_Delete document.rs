@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Delete document</name>
+   <tag></tag>
+   <elementGuidId>7249b490-bf76-4f71-8a0a-ad9dae081aa0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='PolicyFile_Documents-Policy_DocumentsScreen-DocTracking_Documents_AccLV-0-DeleteLink']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.gw-icon.gw-svg-icon.gw-svg-icon-delete.gw-font-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Delete document&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0564ddf5-79a0-424e-b44a-b2b6f06ccf24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gw-icon gw-svg-icon gw-svg-icon-delete gw-font-icon</value>
+      <webElementGuid>cdd4ad2e-b006-4ca6-9a40-c25bf8f59ad9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>78ee9a90-0d94-4eee-a158-c4ee61498520</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>delete</value>
+      <webElementGuid>4d5f111f-73db-42b2-80a3-af8cee5c3030</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PolicyFile_Documents-Policy_DocumentsScreen-DocTracking_Documents_AccLV-0-DeleteLink&quot;)/span[@class=&quot;gw-icon gw-svg-icon gw-svg-icon-delete gw-font-icon&quot;]</value>
+      <webElementGuid>3b60f338-7b06-4015-b72d-a981c113926d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='PolicyFile_Documents-Policy_DocumentsScreen-DocTracking_Documents_AccLV-0-DeleteLink']/span</value>
+      <webElementGuid>21fa86b1-2dfa-4cc1-95ff-fc2337cd4788</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span</value>
+      <webElementGuid>3247df42-dc26-4d64-92ad-ed85a6119694</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

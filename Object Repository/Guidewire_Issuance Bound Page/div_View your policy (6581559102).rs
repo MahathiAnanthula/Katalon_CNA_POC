@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_View your policy (6581559102)</name>
+   <tag></tag>
+   <elementGuidId>be5aa7bc-2172-423c-9698-187590c476fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='JobComplete-JobCompleteScreen-JobCompleteDV-ViewPolicy']/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gw-action.gw-focus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;View your policy (#6581559102)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7610fdfe-e6a0-43d6-8b70-153fc16a3537</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gw-action gw-focus</value>
+      <webElementGuid>80613c99-aff7-48c3-8312-5abc39593de9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>link</value>
+      <webElementGuid>cab7163b-8404-4dd8-85ae-979e704a4d79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gw-click</name>
+      <type>Main</type>
+      <value>fireEvent id:JobComplete-JobCompleteScreen-JobCompleteDV-ViewPolicy</value>
+      <webElementGuid>eee0ce25-d64d-4ea6-a82f-a833682928cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>e3a1600c-3c62-4df6-ba6f-ad950c19ec87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View your policy (#6581559102)</value>
+      <webElementGuid>1dd9f6cf-09b1-4c68-a384-b0767f8b7962</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;JobComplete-JobCompleteScreen-JobCompleteDV-ViewPolicy&quot;)/div[@class=&quot;gw-vw--value gw-align-h--left&quot;]/div[@class=&quot;gw-BulletPointTextValueWidget--inner&quot;]/div[@class=&quot;gw-action gw-focus&quot;]</value>
+      <webElementGuid>278d529c-6bbb-4b32-a9e2-80d94b18e899</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='JobComplete-JobCompleteScreen-JobCompleteDV-ViewPolicy']/div/div/div[2]</value>
+      <webElementGuid>3f80147c-e0f2-4d4a-a47a-10f4fe0604a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View your issuance (#0001268732)'])[1]/following::div[8]</value>
+      <webElementGuid>1097336e-57a9-4890-a063-f613224df2bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Issuance (#0001268732) has been bound.'])[1]/following::div[23]</value>
+      <webElementGuid>30862555-6703-4240-9804-880aeaacf08f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to the submission manager for this account'])[1]/preceding::div[3]</value>
+      <webElementGuid>653d1f3e-9d01-41c8-9b22-a1903724b1b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit an application for a different account'])[1]/preceding::div[11]</value>
+      <webElementGuid>a37431c4-f291-4758-9924-8d9068f6d19e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View your policy (#6581559102)']/parent::*</value>
+      <webElementGuid>8f2cdbf0-42cc-41a8-b220-6c721d004e17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div[4]/div[2]/div/div/div/div[2]</value>
+      <webElementGuid>eff8a957-2f12-43cd-b0fa-e47c9ee408fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'View your policy (#6581559102)' or . = 'View your policy (#6581559102)')]</value>
+      <webElementGuid>2595f4e5-040e-43a0-8e0a-8e07733e895a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

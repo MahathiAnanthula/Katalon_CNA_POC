@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Issuance (Quoted)</name>
+   <tag></tag>
+   <elementGuidId>2f0ef75a-58e3-4e77-8bfa-7852e1eebc25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='IssuanceWizard-JobWizardInfoBar-JobLabel']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#IssuanceWizard-JobWizardInfoBar-JobLabel > div.gw-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Issuance (Quoted)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a95a7045-0445-4ddb-a756-b5ec815367e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gw-label</value>
+      <webElementGuid>0b3b1ac5-b616-4062-b8ee-a420500d9d16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Issuance (Quoted)</value>
+      <webElementGuid>7e227508-de3e-4595-bdea-590ee3e02c51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;IssuanceWizard-JobWizardInfoBar-JobLabel&quot;)/div[@class=&quot;gw-label&quot;]</value>
+      <webElementGuid>f8ed3313-ab1e-47c9-9ff2-5ba8b0ce6d32</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='IssuanceWizard-JobWizardInfoBar-JobLabel']/div</value>
+      <webElementGuid>a715ba1b-0e61-47f0-b997-f6043112b648</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='History'])[1]/following::div[21]</value>
+      <webElementGuid>9a47e290-9504-404b-946a-313f98c88bef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hi'])[1]/following::div[22]</value>
+      <webElementGuid>d5cf6b16-5e40-4b19-8cda-cddde8612847</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Commercial Auto'])[1]/preceding::div[2]</value>
+      <webElementGuid>3ee8b4b4-58a9-4665-af09-94b64872a326</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Effective: 07/03/2025'])[1]/preceding::div[4]</value>
+      <webElementGuid>3a42684c-72f9-4300-8dcd-e7b06cf3b335</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Issuance (Quoted)']/parent::*</value>
+      <webElementGuid>61a1ae1b-276b-463c-84c8-4fb94f5efb55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[3]/div/div</value>
+      <webElementGuid>4611b2ea-496c-41d7-ae8a-a0d61a1d7e71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Issuance (Quoted)' or . = 'Issuance (Quoted)')]</value>
+      <webElementGuid>2b34452a-e599-4161-8efc-9bf546563750</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

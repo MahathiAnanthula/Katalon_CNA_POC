@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Issuance (Bound)</name>
+   <tag></tag>
+   <elementGuidId>8ac953ad-5a2a-4d6c-8d0b-d605aea0bf26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='JobComplete-JobWizardInfoBar-JobLabel']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#JobComplete-JobWizardInfoBar-JobLabel > div.gw-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Issuance (Bound)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a0fefb5b-105d-4271-84be-88744e672a52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gw-label</value>
+      <webElementGuid>300a02e3-3304-4ef0-9a23-36dd1d386281</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Issuance (Bound)</value>
+      <webElementGuid>385aeb0d-fe7b-492c-9239-f4c3a5dd4a4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;JobComplete-JobWizardInfoBar-JobLabel&quot;)/div[@class=&quot;gw-label&quot;]</value>
+      <webElementGuid>cdbf3b3a-9b9e-418a-bb53-795a7dfd4065</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='JobComplete-JobWizardInfoBar-JobLabel']/div</value>
+      <webElementGuid>61184e8e-ff90-47d8-810f-bd5c5e5fa30d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out Super User'])[1]/following::div[28]</value>
+      <webElementGuid>d504e9b8-8546-453d-a59f-58ab8e7b45e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LO'])[1]/following::div[29]</value>
+      <webElementGuid>9dc32118-f350-414c-9696-935ead03cf57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Commercial Property'])[1]/preceding::div[2]</value>
+      <webElementGuid>0d80f44d-df50-466f-982d-11b6209c19ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Effective: 07/04/2025'])[1]/preceding::div[4]</value>
+      <webElementGuid>9cd5872b-6df9-4d99-b3ae-1b4da43609c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Issuance (Bound)']/parent::*</value>
+      <webElementGuid>02eca772-1223-46f9-8012-8be6d54ea717</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[3]/div/div</value>
+      <webElementGuid>9857f9be-df14-4f68-87a8-07c32b7ff34e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Issuance (Bound)' or . = 'Issuance (Bound)')]</value>
+      <webElementGuid>59aedbe1-10af-4d67-bd7b-5cb1fbaf6fd8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

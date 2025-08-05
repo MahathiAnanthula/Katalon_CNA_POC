@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Submission (Rated)</name>
+   <tag></tag>
+   <elementGuidId>5b484ce2-88de-492e-bf58-f466d84f5ea1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='SubmissionWizard-JobWizardInfoBar-JobLabel']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#SubmissionWizard-JobWizardInfoBar-JobLabel > div.gw-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Submission (Rated)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3f94a339-127e-41bc-85ba-f4b7a47f3888</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gw-label</value>
+      <webElementGuid>e9128b8e-c9c6-4c65-9cbb-a24543add2af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Submission (Rated)</value>
+      <webElementGuid>c946a597-e8e4-44d9-8cad-421677e62c2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;SubmissionWizard-JobWizardInfoBar-JobLabel&quot;)/div[@class=&quot;gw-label&quot;]</value>
+      <webElementGuid>0baf0c01-d953-4997-a1dc-9720c873ff61</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='SubmissionWizard-JobWizardInfoBar-JobLabel']/div</value>
+      <webElementGuid>0b057e85-71ee-4c4a-8e93-b8ac74b71061</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='History'])[1]/following::div[21]</value>
+      <webElementGuid>b09a25e7-2745-46e2-a1b4-7706011b1b5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hi'])[1]/following::div[22]</value>
+      <webElementGuid>82897722-3f11-4cfa-b463-e3e50fa0ff43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Commercial Property'])[1]/preceding::div[2]</value>
+      <webElementGuid>0c4790ac-325f-4ad5-acb6-b25dadddad6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Effective: 07/04/2025'])[1]/preceding::div[4]</value>
+      <webElementGuid>8c08ff8d-2937-4af8-84de-794d49ab20fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Submission (Rated)']/parent::*</value>
+      <webElementGuid>41e25fab-d262-415f-b0be-b605be332a61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[3]/div/div</value>
+      <webElementGuid>1beb66ec-3eaf-4af0-b62d-f5543bfbcefc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Submission (Rated)' or . = 'Submission (Rated)')]</value>
+      <webElementGuid>b3bb75cb-c510-4de5-97d4-7c69978db5d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

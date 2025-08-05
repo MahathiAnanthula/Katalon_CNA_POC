@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Download icon</name>
+   <tag></tag>
+   <elementGuidId>4418bfb5-1e60-4d39-8daf-066d0256bf1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.gw-icon.gw-svg-icon.gw-svg-icon-download.gw-font-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(@class,'icon-download')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Download document&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1314f59c-4e4e-4369-b0c4-f011dbe577f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gw-icon gw-svg-icon gw-svg-icon-download gw-font-icon</value>
+      <webElementGuid>8d36bd9d-9125-45d9-9478-8f7222ce6333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>00d9a0c6-cf64-45a2-99b3-112fa9874188</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>download</value>
+      <webElementGuid>f7201c27-2cf7-4705-ab31-d3c104b7ff63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PolicyFile_Documents-Policy_DocumentsScreen-DocTracking_Documents_AccLV-0-DownloadLink&quot;)/span[@class=&quot;gw-icon gw-svg-icon gw-svg-icon-download gw-font-icon&quot;]</value>
+      <webElementGuid>1ada9e24-9e28-4331-b2e6-5bc406ff98d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='PolicyFile_Documents-Policy_DocumentsScreen-DocTracking_Documents_AccLV-0-DownloadLink']/span</value>
+      <webElementGuid>f6fdbcda-711d-4b5d-9875-cee2c7c55b6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/div/div/div[2]/span</value>
+      <webElementGuid>522d21fd-57bb-486d-88af-734f926f6ed8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

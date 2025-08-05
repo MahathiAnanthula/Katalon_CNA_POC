@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Password_form-control custom-input ng_eac701</name>
+   <tag></tag>
+   <elementGuidId>9f1e3f1a-e4ec-4a42-b56c-c89d6a8ce2aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Your password&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>81a5b234-bb6a-475f-971a-5c10cedc30df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>b4e66241-7d2e-4d63-b19e-045ac58f0fe3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>3e73b467-6a19-486c-83bf-ace5000f2d97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Your password</value>
+      <webElementGuid>b6473914-cc0e-46b0-8284-94d7b904ea9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control custom-input ng-touched ng-dirty ng-valid</value>
+      <webElementGuid>f37e941b-5dc0-47bc-b9c7-a5dc2640abdb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-publiclayout[@class=&quot;ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container mat-elevation-z8&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/app-login[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mat-elevation-z8 col-xl-6 col-lg-6 col-md-8 col-sm-10 flex-wrap flex-md-nowrap mt-5 p-3 d-flex align-items-center m-auto&quot;]/div[@class=&quot;d-flex flex-column w-100 justify-content-center m-2&quot;]/div[1]/form[@class=&quot;form ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;form-group mb-3&quot;]/input[@class=&quot;form-control custom-input ng-touched ng-dirty ng-valid&quot;]</value>
+      <webElementGuid>926d777f-2ef9-4c3f-96fb-525de1574ec7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='password']</value>
+      <webElementGuid>29bb8531-a143-4722-986e-3813f865b61c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/input</value>
+      <webElementGuid>fc2783a5-5c11-473e-8976-a3a477046de6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'password' and @placeholder = 'Your password']</value>
+      <webElementGuid>2c9c9b3a-b4c0-4abf-a667-325a6f35ab00</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

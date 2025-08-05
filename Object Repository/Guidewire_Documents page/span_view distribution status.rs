@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_view distribution status</name>
+   <tag></tag>
+   <elementGuidId>40d78182-640b-47ef-944e-42da6b297e04</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='PolicyFile_Documents-Policy_DocumentsScreen-DocTracking_Documents_AccLV-0-DocumentDistribution_Acc']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.gw-icon.gw-svg-icon.gw-svg-icon-view.gw-font-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;View Distribution Status&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>67aad1ac-f15c-4c87-a4a0-3498679e4801</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gw-icon gw-svg-icon gw-svg-icon-view gw-font-icon</value>
+      <webElementGuid>62f43165-27e1-4b0e-a068-e94e3ea6c763</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>78b19c84-5d0b-41ff-ab7b-c1c0e8abb22b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>view</value>
+      <webElementGuid>9361cfea-9fd0-4c19-8be8-a644203430c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PolicyFile_Documents-Policy_DocumentsScreen-DocTracking_Documents_AccLV-0-DocumentDistribution_Acc&quot;)/span[@class=&quot;gw-icon gw-svg-icon gw-svg-icon-view gw-font-icon&quot;]</value>
+      <webElementGuid>580a6ee9-19ff-475c-b0b8-eee0b5e496d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='PolicyFile_Documents-Policy_DocumentsScreen-DocTracking_Documents_AccLV-0-DocumentDistribution_Acc']/span</value>
+      <webElementGuid>e6ccf41f-c2bf-4e8a-bf86-b1b33409fd8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/div/div/div[2]/span</value>
+      <webElementGuid>e2c23804-cafc-40da-b226-0cab43c5ea84</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

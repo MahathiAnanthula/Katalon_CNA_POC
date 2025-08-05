@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Target Document_Browse Button</name>
+   <tag></tag>
+   <elementGuidId>6930fe8a-f11b-4fb8-a3f8-804fbeaed87d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='file'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.mt-2 > div > input.form-control.custom-input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=textbox >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7a45a324-9cf3-4653-af7d-ae093e514da0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>455996b2-31fd-4fca-b1b9-801fe061da3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>accept</name>
+      <type>Main</type>
+      <value>application/pdf, .pdf, .doc, .docx</value>
+      <webElementGuid>956f357f-ddb0-4f08-a1cd-346a1750cd80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control custom-input</value>
+      <webElementGuid>44307602-3660-4ebf-94a3-dab59ebb9c1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/app-superadmin-layout[@class=&quot;ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container mat-elevation-z8 menu-item mat-drawer-container-explicit-backdrop&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/app-on-demand[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;card&quot;]/form[@class=&quot;section-document ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;row g-3&quot;]/div[@class=&quot;col-lg-4&quot;]/div[@class=&quot;card mt-2 h-80&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row mt-2&quot;]/div[1]/input[@class=&quot;form-control custom-input&quot;]</value>
+      <webElementGuid>67730159-a513-4e5e-a32e-49515d678ef4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='file'])[2]</value>
+      <webElementGuid>139143ce-1cc8-4af3-9942-077ccedec4d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/input</value>
+      <webElementGuid>1de759b3-8cb4-4a3c-8b07-c15b0a98c5d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'file']</value>
+      <webElementGuid>59c6b000-961a-4dd9-9050-4af334b6391c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
