@@ -38,7 +38,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 'Calling the reusable Testcase by passing the corresponding variables'
-WebUI.callTestCase(findTestCase('ReusableTC'), [('Username') : Username, ('Password') : Password, ('ProducerCode') : ProducerCode
+WebUI.callTestCase(findTestCase('Account Creation_ReusableTC'), [('Username') : Username, ('Password') : Password, ('ProducerCode') : ProducerCode
         , ('OrganizationName') : OrganizationName, ('AddressType') : AddressType, ('Zipcode') : Zipcode, ('State') : State
         , ('City') : City, ('Address1') : Address1, ('CompanyName') : CACompanyName], FailureHandling.OPTIONAL)
 
