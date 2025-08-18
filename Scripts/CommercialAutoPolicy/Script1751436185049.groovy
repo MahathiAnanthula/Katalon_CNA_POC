@@ -38,7 +38,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 'Calling the reusable Testcase by passing the corresponding variables'
-WebUI.callTestCase(findTestCase('Account Creation_ReusableTC'), [('Username') : Username, ('Password') : Password, ('ProducerCode') : ProducerCode
+WebUI.callTestCase(findTestCase('AccountCreation_ReusableTC'), [('Username') : Username, ('Password') : Password, ('ProducerCode') : ProducerCode
         , ('OrganizationName') : OrganizationName, ('AddressType') : AddressType, ('Zipcode') : Zipcode, ('State') : State
         , ('City') : City, ('Address1') : Address1, ('CompanyName') : CACompanyName], FailureHandling.OPTIONAL)
 
@@ -447,5 +447,5 @@ WebUI.scrollToElement(findTestObject('Object Repository/Guidewire_Document Prope
 */
 WebUI.delay(1)
 
-'Close th Browser'
+'Close the Browser'
 WebUI.closeBrowser()

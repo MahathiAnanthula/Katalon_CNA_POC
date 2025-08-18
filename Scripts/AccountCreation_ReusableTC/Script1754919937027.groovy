@@ -42,9 +42,9 @@ WebUI.click(findTestObject('Object Repository/Guidewire_HomePage/div_New Account
 
 //Enter Account information and click on search
 'generating a random num for unique company name'
-def n = (int)((Math.random() * 10000) + 1); 
+//def n = (int)((Math.random() * 10000) + 1); 
 
-//def n = Math.random()
+def n = Math.random()
 	
 
 'pass the company name value'
