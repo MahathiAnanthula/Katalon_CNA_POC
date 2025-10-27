@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <base href="/login/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=.85">
+    <meta http-equiv="pragma" content="no-cache">
+    <title>Web Page Blocked</title>
+    <style>
+        body {
+            background-color: #fffff;
+            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            margin: 0;
+            color: #070808;
+        }
+
+        a:link {
+            color: #0ba4e8;
+        }
+
+        b,
+        strong {
+            font-weight: 500;
+        }
+
+        p {
+            line-height: 1.2em;
+        }
+
+        button {
+            overflow: visible;
+        }
+
+        button, input, optgroup, select, textarea {
+            color: inherit;
+            font: inherit;
+            margin: 0;
+        }
+
+        .center {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #dError,
+        .msg {
+            color: #d94949;
+            margin: 20px 0;
+        }
+
+        fieldset .msg {
+            margin: 0;
+        }
+
+        #content {
+            padding-top: 100px;
+        }
+
+        #content img {
+            display: block;
+            margin: auto;
+        }
+
+        #content h1 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 43px;
+            text-align: center;
+            letter-spacing: 0.1px;
+            color: #070808;
+            margin: 10px auto 8px;
+        }
+
+        #content > p {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 640px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .response {
+            background-color: #fff;
+            color: #5a636b;
+            margin: 24px auto 0;
+            padding: 20px;
+            font-size: 16px;
+            width: 800px;
+            border: 1px solid #c8cbce;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+
+        .response p {
+            margin: 0 0 1em;
+        }
+
+        .response p:last-child {
+            margin: 0;
+        }
+
+        .response b {
+            color: #070808;
+        }
+
+        .response .msg b {
+            color: #d94949;
+        }
+
+        .response form td,
+        .response form input {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        .loading {
+            margin: 2em auto 1em;
+        }
+    </style>
+</head>
+
+<body>
+<div id="content" class="container">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAUCAYAAAB7wJiVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAf5SURBVGhD7VlrTFRnGn7OOXNjHCogIghIa7rrbrGWWCug1WXFYLs2LiS22lir1rbaTTYhGzeuu4mrdU02VhMQjVtFW6spCWvcJk3ZH7vRrP5QBO+NFTDlVi62gswMDM7Muez7fnOmHalyG7KYjU/y5bvyzjnf+73P+3wHCcB3VBxUxgKGWbPdscCjbm+sofGDeWtra5XExERLaGx0UBQFJSUlWmNjo23//v2q3++P6qUlScKxY8fk5uZmadu2bVowGDRnRgdZlnH4oyPy9fJP1N1zF8iBQMCceTRA+6e/UFUpC4c0NTXZMzIyrKGp0WPnzp2B+vp629GjR82R6FBWVgZ6NuzZs8cciQ6lZK96T2ngUE6ezfeIOcQhK1rG5xWabPYfwwiz2fji/8IhBm2mz+czeyODoevMF7D89GnI8XHE4jrkSQmARTFXEFQVlqcyIE9OhOH3Q7JZoaRMEeV7R5IdZUoSJEuI+aUYB+SJT4zY0Q91yI4dOzB79mzcvHnTHAnhwIEDyMrKwqVLl8yR4WHz5s3IyclBbm7uj8rGjRvNVSMD09natWuRmpqK2NhYpKenY8OGDWhrazNXDA3OVZMOlSDmpXy43nkThhqEa+3rUJJpswmGrx/x+3bBWbQUE7cUw/lqIZS0qZi4/Q9wvlaEBJoz+vshWa2I3/0+XO+tg97jhn1etljLcyPBQx3S0tKCy5cvo3+AwdbWVly9ehUej8ccGR66urrQ0dGBzs5OkIhATU2NaLe3t+POnTvmquHj/PnzyMzMBOerpKQkrFmzBvHx8Th48CBmzJghfmtI0OG1PP0UgnUN6NnyPjwf7IURuF88KMl06u123P39Vri374I99wWKkgC0plb0fVoRigDdgG3ubPT/81+wzZopnCOMjwL/M8oqLy8HKSaQChMnOTk5WbR57MSJE+aq4aG7uxtFRUXisFRUVODKlSs4cuQIrl27huPHj6O0tBQpKSnm6sFgiM027vlhX5iLSeV7YZmeEZpiKuPNZgoiASBNmCCoUSJ6Y8hJibDn5EKnZ9D7fHDkL0Tw61vQ6OApT06jFaSX+O/DZZgY0iEc0pFg+TjeIDksomvTpk1YuXKlORrCqlWrsH79erM3BOjd1NY22Gb+nKjFB+1bjlQJhqbBPj8bthyKhr4+SJQLODKchb+C1tHJmwDD24vAletQEidBSU2hSJsO688yYXh64VxaAL2rG8q0VGHDQg5im8PBkLu7detWrFixQhR+2ZMnT5oz44eLFy+Ket26daKOBvqdbqKeE4gpyEegmu2SQKj8jCLCCVvmDMBmg3vHB7C/mCMc4S07RHnFJxwZ8/Ji9JYfoyizoe/43+HdvQ+eXXtFDvGfryFaa4F9ThbkKZMBEgMC5BimPK4fhCEdUlVVJZzApbKyEnV1debM+KG3t1fUcXGkiqIFM0v/Peh3e6B+0w71VqNQVHr3XbHpRm8fbFnPQqO54KVrlPRVipa5lG/K4CEHyAnxQoUZXi9AjrE+Q06k652zcKmYD9bdgoVEgEjwJBDsixbC9dYqEYHCMQMwpEOqq6vhdrtFYWnJNDHemDp1qqjDkTJqELcz1Thf/bVwBktVhaSt6603iKp8oi857KSwXoFOhyD2t+/SWAxF0y+FCrOkp8KR9yIZkhDzyhIhh2OLN4qoY9lsez4LE954jZztpt/SYSVq5KhS628JuuRoHIghHcI5w+l0imIl9cCfSMYby5cvFzXT6cBPKn6iBhYLwwJvCiVvyeGAJWMa1MZm4QTomhjTOr8Vp9igpM50pnM+sVqIjmrh+MU84Qz/uQvCEZzwreTc4PUb8H32BXz/qDJtkX2q1dZ2iiQNMlGhkpEuog/Kj79WjX+GHgXy8vJEPmNZvmDBApw+fRq3b9/GqVOnUFBQgDlz5qChocFcPTiYorylf4NOMj5u+xYY5GAuTFFMQxLRDysxjhqt5RsRSff+/R9Yn5sJ67PPiDZoXpx3VmbkZCGd+aBwmw6I1ka23B4EbnwF775D0N1exP3lT5RH1NBDROChDmGPR9ZjjWjtHj58WKgpptRFixYJGZ2fn48zZ84IAZKWlmauHBx8z2AlpKQkk/ztFzwvx7powzNJ1s4l6rGKyOj5819Dt3nKGSola+tPptPfTobaTqqLqYc2P0hUxI564ne/gevt1dBJiclxE8lxZGvhPKG2bNnPixs+U+KDEjvzzx+Li4stlCDv46KEhARkZ2dj/vz5iCHeDIPHZ82aJU6my+UyR0M4e/YsyfAuhe8Ig4EvcosXLxZ2BsOFCxfQ09ODJUuWmCM/wEL3g2XLlmH16tXCHl8SCwsLhaM4epheB6Ka7LWdq9aWpT2pBM3N4GiQnTHiRt374cfiRAe/qodE9KI2t9Dp7qBoaYP+XRfUr5vEpxVeG7xZT3RVS4rKA4kig+lNp+I/VwMlIY5sNCB4oy5ETUR57ESOMJmon53uPfgxRR/Fg8gl9D6SbJTUf2lw7/HXXo5Wum1DMQmD+1x4s7iE2+GoHthmhNdwk5z9/WbzeHgu3I/8LROPv/ZGgjcqcoO4H3F676sf1GZEtMVtPnLdQFsDnBEJMaPrOv8DSI2mkA1V0zSdC7cftGYkhexwxhPGxsIe2zAo61KKNhRZVi2PWJEVmTlUuK2bcsQPSSIK0ItTrjYMu90uj4UYUFXaQ7JD+cA8XtGB7el0ibPJshT9040t+AXvaZr6X63RlWMr/gurAAAAAElFTkSuQmCC" alt="htc_logo">
+    <h1>Web Page Blocked</h1>
+    <p>The web page you are trying to visit has been blocked in accordance with company policy. Please contact your system administrator if you believe this is an error.</p>
+    <div class="response">
+        <p><b>User:</b> 10.6.8.36</p>
+        <p><b>URL:</b> 34.232.179.226:5008/get-document</p>
+        <p><b>Category:</b> medium-risk</p>
+    </div>
+</div>
+</body>
+</html>

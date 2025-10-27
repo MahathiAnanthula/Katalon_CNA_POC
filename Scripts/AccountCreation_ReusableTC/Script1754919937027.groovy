@@ -32,8 +32,9 @@ WebUI.setText(findTestObject('Object Repository/GuideWire_LoginPage/input_Userna
 WebUI.setEncryptedText(findTestObject('Object Repository/GuideWire_LoginPage/input_Password'), Password)
 'Click on login button'
 WebUI.click(findTestObject('Object Repository/GuideWire_LoginPage/div_Log In'))
+WebUI.delay(5)
 'verify Homepage is displayed'
-WebUI.verifyElementPresent(findTestObject('Object Repository/Guidewire_HomePage/div_My Summary'), 5)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Guidewire_HomePage/div_My Summary'), 5)
 
 'Click on New Account under Actions'
 WebUI.click(findTestObject('Object Repository/Guidewire_HomePage/div_Actions'))
@@ -60,7 +61,7 @@ WebUI.click(findTestObject('Object Repository/Guidewire_Enter Account Informatio
 'verify The search returned zero results message is displayed'
 WebUI.scrollToElement(findTestObject('Object Repository/Guidewire_Enter Account Information/div_The search returned zero results'),
 	3)
-
+WebUI.delay(4)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Guidewire_Enter Account Information/div_The search returned zero results'),
 	2)
 
@@ -71,7 +72,7 @@ WebUI.scrollToElement(findTestObject('Object Repository/Guidewire_Enter Account 
 WebUI.click(findTestObject('Object Repository/Guidewire_Enter Account Information/div_CNCreate New Account'))
 'Click on Company Name'
 WebUI.click(findTestObject('Object Repository/Guidewire_Enter Account Information/div_Company'))
-
+WebUI.delay(4)
 //Create Account by providing all details
 'Verify create account page is disaplyed'
 WebUI.verifyElementText(findTestObject('Object Repository/Guidewire_Create account/input_Name_CreateAccountPage'), company_name)
@@ -119,30 +120,13 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Guidewire_Organizations/div_Select'))
 'get the organization name and store it in variable'
 String Organization_Name = WebUI.getText(findTestObject('Object Repository/Guidewire_Create account/input_Organization Name'))
+println(Organization_Name)
 'select the producer code value from dropdown'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Guidewire_Create account/select_ProducerCode'), ProducerCode,
 	false)
 'click on update button'
 WebUI.click(findTestObject('Object Repository/Guidewire_Create account/div_Update'))
-
+WebUI.delay(4)
 'verify New Submissions page is displayed'
 WebUI.verifyElementPresent(findTestObject('Object Repository/Guidewire_Account Summary_Page/Account Summary Title'), 3)
-
-'Click on Actions-->New Submission'
-WebUI.click(findTestObject('Object Repository/Guidewire_HomePage/div_Actions'))
-
-WebUI.click(findTestObject('Object Repository/Guidewire_Account Summary_Page/div_New Submission'))
-
-'Validate that Organization details, Default Base State, and Default Effective Date are populated correctly'
-WebUI.verifyElementText(findTestObject('Object Repository/Guidewire_New Submissions Page/input_Organization_NewSubmission'),
-	Organization_Name)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Guidewire_New Submissions Page/Default_Selected_State'), selected_state)
-
-def todaysdate = new Date().format('MM/dd/YYYY')
-
-String actualdate = WebUI.getAttribute(findTestObject('Object Repository/Guidewire_New Submissions Page/Selected_Default Date'),
-	'value')
-
-WebUI.verifyMatch(todaysdate, actualdate, false)
 

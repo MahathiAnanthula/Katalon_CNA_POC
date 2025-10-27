@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Documents Tab</name>
+   <tag></tag>
+   <elementGuidId>55d6fa5c-6c29-42f4-8a86-80c5fa2f58e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='SubmissionWizard-Documents']/div/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gw-action--inner.gw-focus > div.gw-label.gw-hasIcon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Documents&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0ad7a2b3-e1f0-44bf-9e77-e79ea8d7273e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gw-label gw-hasIcon</value>
+      <webElementGuid>8e3c7d5d-466e-4413-9637-8e8e50fb9f15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Documents</value>
+      <webElementGuid>01ef8f7b-2136-4feb-9e76-e0db7c77d2e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Documents</value>
+      <webElementGuid>8de3b3b1-18ba-4985-95ae-2da598106e53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;SubmissionWizard-Documents&quot;)/div[@class=&quot;gw-action--inner gw-focus&quot;]/div[@class=&quot;gw-label gw-hasIcon&quot;]</value>
+      <webElementGuid>9d494e6b-0be9-4986-ba51-2b75e613c963</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='SubmissionWizard-Documents']/div/div[3]</value>
+      <webElementGuid>6449765b-11ee-48d4-b7aa-2d8529341b6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do'])[1]/following::div[1]</value>
+      <webElementGuid>ea65f102-661f-4512-b652-cb01da44daa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes'])[1]/following::div[7]</value>
+      <webElementGuid>0d463570-186a-44eb-ba31-90d506960e5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pa'])[2]/preceding::div[3]</value>
+      <webElementGuid>4fba8c9b-3bcd-4b93-a214-ee1b93d6fac0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Participants'])[1]/preceding::div[5]</value>
+      <webElementGuid>2ce385ad-7334-4f80-86d0-668a2d27d32a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Documents']/parent::*</value>
+      <webElementGuid>aa91c85c-2bc3-4f5d-9009-eb7b39b4f85f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[3]/div[2]/div/div[3]</value>
+      <webElementGuid>1fa611d8-6af5-4d14-b5cc-7c192e2cc45f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Documents' or . = 'Documents')]</value>
+      <webElementGuid>e6abef34-fcf5-4621-acb5-e8a6b11d6a09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

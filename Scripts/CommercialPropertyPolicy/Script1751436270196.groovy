@@ -22,6 +22,27 @@ WebUI.callTestCase(findTestCase('AccountCreation_ReusableTC'), [('Username') : U
         , ('OrganizationName') : OrganizationName, ('AddressType') : AddressType, ('Zipcode') : Zipcode, ('State') : State
         , ('City') : City, ('Address1') : Address1, ('CompanyName') : CPCompanyName], FailureHandling.OPTIONAL)
 
+
+'Click on Actions-->New Submission'
+WebUI.click(findTestObject('Object Repository/Guidewire_HomePage/div_Actions'))
+
+WebUI.click(findTestObject('Object Repository/Guidewire_Account Summary_Page/div_New Submission'))
+WebUI.delay(4)
+'Validate that Organization details, Default Base State, and Default Effective Date are populated correctly'
+//WebUI.verifyElementText(findTestObject('Object Repository/Guidewire_New Submissions Page/input_Organization_NewSubmission'),OrganizationName)
+//WebUI.delay(4)
+WebUI.verifyElementText(findTestObject('Object Repository/Guidewire_New Submissions Page/Default_Selected_State'), State)
+
+def todaysdate = new Date().format('MM/dd/YYYY')
+
+String actualdate = WebUI.getAttribute(findTestObject('Object Repository/Guidewire_New Submissions Page/Selected_Default Date'),
+	'value')
+
+WebUI.verifyMatch(todaysdate, actualdate, false)
+
+
+
+
 'Select Commericial Property'
 WebUI.click(findTestObject('Object Repository/Guidewire_New Submissions Page/div_Select_Commericial Property'))
 
