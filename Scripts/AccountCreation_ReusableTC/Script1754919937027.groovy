@@ -34,7 +34,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/GuideWire_LoginPage/inp
 WebUI.click(findTestObject('Object Repository/GuideWire_LoginPage/div_Log In'))
 WebUI.delay(5)
 'verify Homepage is displayed'
-//WebUI.verifyElementPresent(findTestObject('Object Repository/Guidewire_HomePage/div_My Summary'), 5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Guidewire_HomePage/div_My Summary'), 5)
 
 'Click on New Account under Actions'
 WebUI.click(findTestObject('Object Repository/Guidewire_HomePage/div_Actions'))
@@ -61,7 +61,7 @@ WebUI.click(findTestObject('Object Repository/Guidewire_Enter Account Informatio
 'verify The search returned zero results message is displayed'
 WebUI.scrollToElement(findTestObject('Object Repository/Guidewire_Enter Account Information/div_The search returned zero results'),
 	3)
-WebUI.delay(4)
+WebUI.delay(2)
 WebUI.verifyElementPresent(findTestObject('Object Repository/Guidewire_Enter Account Information/div_The search returned zero results'),
 	2)
 
@@ -72,7 +72,7 @@ WebUI.scrollToElement(findTestObject('Object Repository/Guidewire_Enter Account 
 WebUI.click(findTestObject('Object Repository/Guidewire_Enter Account Information/div_CNCreate New Account'))
 'Click on Company Name'
 WebUI.click(findTestObject('Object Repository/Guidewire_Enter Account Information/div_Company'))
-WebUI.delay(4)
+WebUI.delay(2)
 //Create Account by providing all details
 'Verify create account page is disaplyed'
 WebUI.verifyElementText(findTestObject('Object Repository/Guidewire_Create account/input_Name_CreateAccountPage'), company_name)

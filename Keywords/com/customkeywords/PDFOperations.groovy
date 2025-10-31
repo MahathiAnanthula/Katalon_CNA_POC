@@ -32,17 +32,6 @@ import internal.GlobalVariable
 
 public class PDFOperations {
 
-	/*	@Keyword
-	 def readPDFContent(String filePath) {
-	 File file = new File(filePath)
-	 PDDocument document = PDDocument.load(file)
-	 PDFTextStripper pdfStripper = new PDFTextStripper()
-	 String text = pdfStripper.getText(document)
-	 document.close()
-	 println("PDF Content:\n" + text)
-	 return text
-	 }
-	 */
 	@Keyword
 	def checkAndSavePDF(String downloadPath, String originalFileName, TestObject DownloadButton) {
 		Path pdfPath = Paths.get(downloadPath, originalFileName)

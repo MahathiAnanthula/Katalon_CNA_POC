@@ -22,6 +22,18 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.time.format.DateTimeFormatter
 import java.time.LocalTime
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.opencsv.CSVWriter;
+
+import java.io.FileWriter;
+import java.io.IOException;
 
 WebUI.openBrowser('')
 
@@ -173,6 +185,21 @@ WebUI.scrollToElement(findTestObject('Object Repository/Page_PDF Comparator/butt
 WebUI.click(findTestObject('Object Repository/Page_PDF Comparator/button_Schedule'))
 
 
+
+/*
+//Update excel csv file
+String doc_name = "PolicyManuscriptFreeFormRev1_Source"
+
+//String excelpath= "C:\\Users\\mahathi.ananthula\\Katalon Studio\\SmartComm Project\\Sample CSV Template.csv"
+String excelpath= "Sample CSV Template.csv"
+String src_doc_path = "/home/ubuntu/pdfcomp/uat_server-06-09-23/python/"
+
+String src_doc = src_doc_path + doc_name;
+
+//CustomKeywords.'com.customkeywords.reusableMethods.updateCSVfile'(excelpath)
+//CustomKeywords.com.customke
+CustomKeywords.'com.customkeywords.updateCSVExample.updateCSV'()
+*/
 
 
 WebUI.delay(15)

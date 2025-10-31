@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_PolicyDownArrow_Expand</name>
+   <tag></tag>
+   <elementGuidId>396d7f5a-a3b5-466a-a2f1-a3aeafe5674a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='TabBar-PolicyTab']/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#TabBar-PolicyTab > div.gw-action--expand-button > div.gw-icon.gw-icon--expand</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#TabBar-PolicyTab > .gw-action--expand-button > .gw-icon</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3bb47947-8b49-44de-a03a-5ab77fd9e5c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gw-icon gw-icon--expand</value>
+      <webElementGuid>b0d10570-7c0c-4ddd-8e68-8b48eb6a9037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;TabBar-PolicyTab&quot;)/div[@class=&quot;gw-action--expand-button&quot;]/div[@class=&quot;gw-icon gw-icon--expand&quot;]</value>
+      <webElementGuid>d2b3ee9d-2bf3-4204-9f61-fb787ebebfe2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='TabBar-PolicyTab']/div[3]/div</value>
+      <webElementGuid>a89fc9bb-92e1-43e3-aef4-58be1cfe6dff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[3]/div</value>
+      <webElementGuid>f8038ccb-8a36-4878-bb29-59a4eebe56fc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

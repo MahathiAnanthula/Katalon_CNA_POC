@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CommercialAuto_CopySubmission_Policy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4b5e4a5c-27ca-4d21-aeb0-2d841794845b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5a5cb255-b3ad-4a05-8531-09a47d22be91</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Automation_Test_Data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5a5cb255-b3ad-4a05-8531-09a47d22be91</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>32f677d4-5cf5-451a-8fa3-bb47c1a08481</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5a5cb255-b3ad-4a05-8531-09a47d22be91</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>a19faa1b-7d62-44ef-b591-b66135893727</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5a5cb255-b3ad-4a05-8531-09a47d22be91</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>PolicyNumber</value>
+      <variableId>33dcfe41-1985-40dd-baed-3e1d61ba6230</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>32f677d4-5cf5-451a-8fa3-bb47c1a08481</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a19faa1b-7d62-44ef-b591-b66135893727</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33dcfe41-1985-40dd-baed-3e1d61ba6230</id>
+      <masked>false</masked>
+      <name>PolicyNumber</name>
+   </variable>
+</TestCaseEntity>

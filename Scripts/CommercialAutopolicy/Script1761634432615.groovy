@@ -49,6 +49,8 @@ import java.nio.file.Paths
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
+import com.kms.katalon.keyword.excel.ExcelKeywords as ExcelKeywords
+
 'Calling the reusable Testcase by passing the corresponding variables'
 WebUI.callTestCase(findTestCase('AccountCreation_ReusableTC'), [('Username') : Username, ('Password') : Password, ('ProducerCode') : ProducerCode
         , ('OrganizationName') : OrganizationName, ('AddressType') : AddressType, ('Zipcode') : Zipcode, ('State') : State
@@ -60,29 +62,16 @@ WebUI.click(findTestObject('Object Repository/Guidewire_HomePage/div_Actions'))
 
 WebUI.click(findTestObject('Object Repository/Guidewire_Account Summary_Page/div_New Submission'))
 WebUI.delay(4)
-'Validate that Organization details, Default Base State, and Default Effective Date are populated correctly'
-//WebUI.verifyElementText(findTestObject('Object Repository/Guidewire_New Submissions Page/input_Organization_NewSubmission'),OrganizationName)
-//WebUI.delay(4)
+
+'Validate that Default Base State, and Default Effective Date are populated correctly'
 WebUI.verifyElementText(findTestObject('Object Repository/Guidewire_New Submissions Page/Default_Selected_State'), State)
 
 def todaysdate = new Date().format('MM/dd/YYYY')
-
-// Get current date
-LocalDate currentDate = LocalDate.now()
-
-// Add 1 year
-LocalDate nextYearDate = currentDate.plusYears(1)
-
-// Format date as needed (e.g., yyyy-MM-dd)
-DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/YYYY")
-String formattedextyearDate = nextYearDate.format(formatter)
 
 String actualdate = WebUI.getAttribute(findTestObject('Object Repository/Guidewire_New Submissions Page/Selected_Default Date'),
 	'value')
 
 WebUI.verifyMatch(todaysdate, actualdate, false)
-
-
 
 
 'Select Commericial Auto Option'
@@ -142,6 +131,16 @@ WebUI.click(findTestObject('Object Repository/Guidewire_Commercial Auto Line pag
 WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/Guidewire_Commercial Auto Line page/input_Limit Value'), "11")
 WebUI.setText(findTestObject('Object Repository/Guidewire_Commercial Auto Line page/input_Start Coverage Date'), todaydate)
+// Get current date
+LocalDate currentDate = LocalDate.now()
+
+// Add 1 year
+LocalDate nextYearDate = currentDate.plusYears(1)
+
+// Format date as needed (e.g., MM/dd/YYYY)
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/YYYY")
+String formattedextyearDate = nextYearDate.format(formatter)
+
 WebUI.setText(findTestObject('Object Repository/Guidewire_Commercial Auto Line page/input_End Coverage Date'), formattedextyearDate)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Guidewire_Commercial Auto Line page/input_Bobtail Liability'), 2)
@@ -382,6 +381,22 @@ WebUI.delay(4)
 String PolicyNum = WebUI.getText(findTestObject('Object Repository/Guidewire_Submission Bound Page/div_Policy Num'))
 'Print the Policy Num'
 println(('Policy is: ' + PolicyNum) + 'created')
+
+/*
+// Open the Excel file
+def workbook = ExcelKeywords.getWorkbook("Data Files/Automation_Test_Data.xlsx")
+
+// Get a specific sheet
+def sheet = ExcelKeywords.getExcelSheet(workbook, "Sheet1")
+
+// Write data to cell (Row 2, Column 3 for example)
+ExcelKeywords.setValueToCellByIndex(sheet, 2, 3, PolicyNum)
+
+// Save the workbook
+ExcelKeywords.saveWorkbook("Data Files/Automation_Test_Data.xlsx", workbook)
+*/
+
+
 'Click on View your Policy link'
 WebUI.click(findTestObject('Object Repository/Guidewire_Submission Bound Page/div_View your policy link' //click on view your policy link
         ))
@@ -530,12 +545,17 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Guidewire_Documents
 
 WebUI.delay(20)
 WebUI.click(findTestObject('Object Repository/Guidewire_Policy Summary Page/div_Notes'))
-WebUI.delay(5)
+WebUI.delay(8)
+WebUI.click(findTestObject('Object Repository/Guidewire_Policy Summary Page/div_Documents'))
+WebUI.refresh()
+WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Guidewire_Policy Summary Page/div_Notes'))
+WebUI.delay(8)
 WebUI.click(findTestObject('Object Repository/Guidewire_Policy Summary Page/div_Documents'))
 WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Guidewire_Documents page/span_Download icon'), 15)
-WebUI.click(findTestObject('Object Repository/Guidewire_Documents page/span_Download icon'))
+//WebUI.click(findTestObject('Object Repository/Guidewire_Documents page/span_Download icon'))
 
 /*
 
@@ -582,8 +602,6 @@ WebUI.scrollToElement(findTestObject('Object Repository/Guidewire_Document Prope
 */
 
 WebUI.delay(3)
-
-
 
 'Close the Browser'
 //WebUI.closeBrowser()

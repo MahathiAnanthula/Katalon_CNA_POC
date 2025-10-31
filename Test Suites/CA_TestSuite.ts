@@ -15,7 +15,7 @@
       <guid>a19188a1-44f5-45bf-afa5-a524c307b721</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CommercialAutoPolicy</testCaseId>
+      <testCaseId>Test Cases/CommercialAutopolicy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
